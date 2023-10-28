@@ -1,0 +1,160 @@
+  p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  header {
+    background-color: #284974;
+    color:white;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  nav ul li {
+    font-size: 20px;
+    margin-right: 35px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #284974;
+    text-decoration: none;
+    border: 1px solid #284974;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #E0E0E0;
+  }
+  #AboutMe .container ul li{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  section {
+    background-color: #e9f7fb;
+    padding: 20px;
+  }
+  #Home .container{
+    background-color: #e9f7fb;
+    padding: 200px 200px 200px 80px;
+    text-align: left;
+  }
+  #AboutMe {
+    padding: 100px 100px 150px 80px;
+    text-align: left;
+  }
+  #Portfolio {
+    background-color: #284974;
+    padding: 100px 100px 100px 80px;
+  }
+  .container {
+    background-color: rgb(227, 242, 249);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  h1,h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+  }
+  .project {
+    margin: 30px;
+  }
+  .project h2{
+    font-size: 30px;
+    color: #284974;
+    font-weight: bold;
+  }
+  .container h1 {
+    font-size: 90px;
+  }
+  button {
+    background-color: #046B99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  footer {
+    text-align: center;
+  }
+@media (max-width: 375px) {
+  nav ul li {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  #Home .container {
+    padding: 150px 20px;
+  }
+  #AboutMe {
+    padding: 50px 20px;
+  }
+
+  #Portfolio {
+    padding: 50px 20px;
+  }
+  .container h1 {
+    font-size: 60px;
+  }
+  .project h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  #Home .container {
+    padding: 150px 40px;
+  }
+  #AboutMe {
+    padding: 50px 40px;
+  }
+  #Portfolio {
+    padding: 50px 40px;
+  }
+  .container h1 {
+    font-size: 70px;
+  }
+  .project h2 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  nav ul li {
+    margin-right: 20px;
+  }
+  #Home .container {
+    padding: 150px 100px;
+  }
+  #AboutMe {
+    padding: 50px 100px;
+  }
+  #Portfolio {
+    padding: 50px 100px;
+  }
+  .container h1 {
+    font-size: 80px;
+  }
+  .project h2 {
+    font-size: 32px;
+  }
+}
