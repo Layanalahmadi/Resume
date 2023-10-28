@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layan Eid Resume</title>
+  <link rel="stylesheet" href="cssweb.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="#Home">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="Home">
+    <div class="container">
+      <h1>
+        Hi,
+        I'm Layan Eid.. &emsp;<strong>Software Engineer</strong>
+      </h1>
+    </div>
+  </section>
+
+  <section id="AboutMe">
+    <div class="container">
+      <h1>About me</h1>
+      <hr>
+      <p>
+        I am an ambitious software engineering student with a strong passion for professional software development. I always follow a systematic approach to ensure the creation of high-quality software solutions. My commitment to quality drives me to consistently deliver great results throughout the entire software development lifecycle. I started my program at Jeddah University in 2021, and I will finish the program almost at the end of 2024. I have also participated in hackathons and competitions.
+      </p>
+      <br>
+      <h2>Courses I took</h2>
+      <ul>
+        <li>Principles of Software Engineering</li>
+        <li>Software Requirements Engineering</li>
+        <li>Software Design and Architecture</li>
+        <li>Software Project Management</li>
+        <li>Software Process Models</li>
+        <li>HCI</li>
+      </ul>
+    </div>
+  </section>
+  <section id="Portfolio">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="project">
+        <h2>DentsOasis System</h2>
+        <p>DentsOasis application to help patients book appointments. We will design an application to make it easier and save time for patients to book an appointment with a dentist in the Kingdom of Saudi Arabia. It allows them to search for dentists based on available specialties, such as oral surgery, orthodontics, etc.</p>
+        <a class="button" href="https://github.com/Layanalahmadi/Team-collaboration">Click here to know more</a>
+      </div>
+      <hr>
+      <div class="project">
+        <h2>DFC</h2>
+        <p>An application in which you will be able to choose what you want in the car or how you want it to look like. The app allows you to design it and it can be delivered to you or you can receive it from the car showroom.</p>
+        <a class="button" href="SW223_ProjectReport.pdf">Click here to know more</a>
+      </div>
+      <hr>
+      <div class="project">
+        <h2>Aufuq</h2>
+         <p>The general idea of the project is how people get a reliable destination to coordinate their trips through an application that collects all the trip needs safely.</p>
+         <a class="button" href="https://www.figma.com/file/tUn2EIn6fVa8I8eGnl2e2c/Untitled?type=design&node-id=0-1&mode=design">Click here to know more</a>
+      </div>
+      <hr>
+      <div class="project">
+        <h2>yourTic</h2>
+        <p>your Tic is a movie ticket booking program for booking online movie tickets. Where a user can search for a movie in the given list and book it easily.</p>
+        <a class="button" href="OOPproject.pdf">Click here to know more</a>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <section id="Contact">
+    <div class="container">
+      <h1 class="my-5">Contact Me!</h1>
+      <form>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingName" placeholder="Name" >
+            <label for="floatingName">Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type ="email"   class="form-control"  id="floatingEmail" placeholder="Email">
+            <label for="floatingEmail">Email</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingPhone" placeholder="Phone" >
+            <label for="floatingPhone">Phone</label>
+        </div>
+
+        <div class="form-floating mb-3">
+           <textarea class="form-control" id="floatingfTextArea" style="height: 100px" placeholder="Leave a comment here"></textarea>
+            <label for="floatingfTextArea">Comments</label>
+        </div>      
+        <button type="button" class="btn-outline">Submit</button>
+        
+    </form>
+</div>
+<footer>Copyright © Layan Eid Resume</footer>
+<i class="fa-solid fa-phone"></i>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </section>
+</body>
+</html>
